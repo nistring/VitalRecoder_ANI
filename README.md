@@ -1,7 +1,7 @@
-# Vital Monitor
+# VitalRecoder_ANI
 
 ## Overview
-Vital Monitor is a Python-based tool for processing and analyzing vital sign data from medical monitoring systems. It calculates key clinical parameters including Analgesia Nociception Index (ANI) and Surgical Pleth Index (SPI) from ECG and PPG signals.
+VitalRecoder_ANI is a Python-based tool for processing and analyzing vital sign data from medical monitoring systems ([VitalRecoder](https://vitaldb.net/)) to calculate key clinical parameters including [Analgesia Nociception Index (ANI)](https://ieeexplore.ieee.org/document/5332598) and Surgical Pleth Index (SPI) from ECG and PPG signals. We have implemented the ANI formula in ```ani.py``` and confirmed that the calculated ANI values strongly correlate with those produced by commercial software.
 
 ## Features
 - **ECG Processing**: Cleans and processes ECG signals for reliable analysis
@@ -16,7 +16,8 @@ Vital Monitor is a Python-based tool for processing and analyzing vital sign dat
 ### Prerequisites
 - Python 3.7 or higher
 - pip package manager
-
+- Download [VitalRecoder](https://vitaldb.net/vital-recorder/) to visualize the vital sign tracks and install [VitalDB](https://vitaldb.net/docs/?documentId=1j702xfDef7RNhfZANQQt7tkzzbin2FVe9GAnleDSyzI) to process data.
+  
 ### Setup
 ```bash
 # Clone the repository
